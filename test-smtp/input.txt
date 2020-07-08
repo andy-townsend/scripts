@@ -1,0 +1,13 @@
+EHLO andytownsend.co.uk
+AUTH LOGIN
+<base64 encoded aws access key with SES access>
+<base64 encoded aws secret keywith SES access>
+MAIL FROM: no-reply@andytownsend.co.uk
+RCPT TO: me@andytownsend.co.uk
+DATA
+From: Sender Name <no-reply@andytownsend.co.uk>
+To: me@andytownsend.co.uk
+Subject: Amazon SES SMTP Test
+This message was sent using the Amazon SES SMTP interface.
+.
+QUIT
