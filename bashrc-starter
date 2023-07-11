@@ -212,6 +212,9 @@ alias gd="git diff"
 alias gst="git status"
 alias gcm="git commit -m"
 
+#Random Password Generation
+alias pgen='openssl rand -base64 32 |  tr -cd "[:alnum:]"'
+
 export PATH="$PATH:/opt/mssql-tools/bin"
 
 _AWS_SSO_UTIL_COMPLETE_SCRIPT_DIR=~/.local/share/aws-sso-util
